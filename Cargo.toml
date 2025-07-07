@@ -1,0 +1,14 @@
+[package]
+name = "RSA_LICZENIE_SLOW_RUST"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+winapi = { version = "0.3", features = ["processthreadsapi", "psapi", "sysinfoapi", "winbase", "consoleapi", "wincon"] }
+rayon = "1.5"
+aes = "0.8"
+ctr = "0.9"
+rsa = { version = "0.9", features = ["pem", "sha2"] }
+rand = "0.8"
+hex = "0.4"
+sha2 = "0.10"

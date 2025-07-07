@@ -1,31 +1,33 @@
-Opis projektu – wersja Rust
-Ten projekt to środowisko testowe stworzone w języku Rust, umożliwiające analizę wydajności:
+# 🦀 KryptoWątki-Rust
 
-algorytmów kryptograficznych (AES, RSA),
+Platforma badawcza napisana w języku **Rust**, służąca do analizy wydajności algorytmów kryptograficznych (AES, RSA) oraz wielowątkowego przetwarzania tekstu. Projekt umożliwia testowanie i porównywanie czasu wykonania, zużycia CPU oraz pamięci RAM.
 
-wielowątkowego przetwarzania tekstu.
+---
 
-Celem jest ocena możliwości języka Rust w kontekście szyfrowania, deszyfrowania oraz operacji na dużych plikach tekstowych z wykorzystaniem wielu wątków. Projekt pozwala na pomiar zużycia zasobów systemowych (czas, CPU, RAM) i daje użytkownikowi elastyczność w konfiguracji testów.
+## 📘 Opis projektu
 
-Zakres funkcjonalny
-Tryb kryptograficzny:
+Główne cele projektu to:
 
-Szyfrowanie i deszyfrowanie danych przy użyciu AES i RSA,
+- Ocena wydajności algorytmów szyfrowania i deszyfrowania (AES, RSA),
+- Testowanie operacji wielowątkowych na dużych plikach tekstowych,
+- Pomiar zasobożerności operacji (czas, CPU, RAM),
+- Sprawdzenie możliwości języka Rust w zakresie kryptografii i wielowątkowości.
 
-Obsługa danych wejściowych: tekst własny lub dane losowe,
+---
 
-Ustawienia parametrów: liczba haseł, długość tekstu, długość klucza.
+## 🔍 Funkcjonalności
 
-Tryb tekstowy (wielowątkowy):
+### 🛡 Tryb kryptograficzny:
+- Szyfrowanie i deszyfrowanie danych (AES, RSA),
+- Możliwość użycia własnych danych lub generacja losowych,
+- Konfiguracja: liczba haseł, długość tekstu, długość klucza.
 
-Przeszukiwanie pliku tekstowego z wykorzystaniem wielu wątków,
+### 🔄 Tryb wielowątkowego przetwarzania tekstu:
+- Przeszukiwanie dużych plików tekstowych w wielu wątkach,
+- Wybór liczby wątków, słów kluczowych, pliku źródłowego,
+- Zwracanie wyników i pomiar wydajności.
 
-Możliwość określenia liczby wątków, słów kluczowych i pliku wejściowego.
-
-Pomiar wydajności:
-
-Czas wykonania,
-
-Zużycie CPU,
-
-Zużycie pamięci RAM.
+### 📊 Pomiar wydajności:
+- Czas przetwarzania (real / user / system),
+- Zużycie CPU,
+- Zużycie pamięci RAM.

@@ -1,33 +1,33 @@
-# 🦀 KryptoWątki-Rust
+# 🦀 CryptoThreads-Rust
 
-Platforma badawcza napisana w języku **Rust**, służąca do analizy wydajności algorytmów kryptograficznych (AES, RSA) oraz wielowątkowego przetwarzania tekstu. Projekt umożliwia testowanie i porównywanie czasu wykonania, zużycia CPU oraz pamięci RAM.
-
----
-
-## 📘 Opis projektu
-
-Główne cele projektu to:
-
-- Ocena wydajności algorytmów szyfrowania i deszyfrowania (AES, RSA),
-- Testowanie operacji wielowątkowych na dużych plikach tekstowych,
-- Pomiar zasobożerności operacji (czas, CPU, RAM),
-- Sprawdzenie możliwości języka Rust w zakresie kryptografii i wielowątkowości.
+A testing platform written in **Rust** to analyse the performance of cryptographic algorithms (AES, RSA) and multithreaded text processing. The project allows testing and comparison of execution time, CPU and RAM consumption.
 
 ---
 
-## 🔍 Funkcjonalności
+## 📘 Project description
 
-### 🛡 Tryb kryptograficzny:
-- Szyfrowanie i deszyfrowanie danych (AES, RSA),
-- Możliwość użycia własnych danych lub generacja losowych,
-- Konfiguracja: liczba haseł, długość tekstu, długość klucza.
+The main objectives of the project are:
 
-### 🔄 Tryb wielowątkowego przetwarzania tekstu:
-- Przeszukiwanie dużych plików tekstowych w wielu wątkach,
-- Wybór liczby wątków, słów kluczowych, pliku źródłowego,
-- Zwracanie wyników i pomiar wydajności.
+- Performance evaluation of encryption and decryption algorithms (AES, RSA),
+- Testing multi-threaded operations on large text files,
+- Measuring resource consumption of operations (time, CPU, RAM),
+- Testing the capabilities of the Rust language for cryptography and multithreading.
 
-### 📊 Pomiar wydajności:
-- Czas przetwarzania (real / user / system),
-- Zużycie CPU,
-- Zużycie pamięci RAM.
+---
+
+## 🔍 Functionality
+
+## 🛡 Cryptographic mode:
+- Encryption and decryption of data (AES, RSA),
+- Possibility to use your own data or generate random data,
+- Configuration: number of passwords, text length, key length.
+
+### 🔄 Multi-threaded text processing mode:
+- Searching large text files in multiple threads,
+- Selection of number of threads, keywords, source file,
+- Return of results and performance measurement.
+
+### 📊 Performance measurement:
+- Processing time,
+- CPU consumption,
+- RAM consumption.
